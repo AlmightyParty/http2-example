@@ -14,6 +14,34 @@
         	<li><a href="https://47.94.95.52:8081/item1.html">图片接口请求速度</a></li>
             <li><a href="http://47.94.95.52:8080/item2.html">http资源不推送</a></li> 
             <li><a href="https://47.94.95.52:8081/serverpush">http2资源推送</a></li> 
+            <li onclick="http2()">http2 100次ajax请求</li>
+            <li onclick="http1()">http1 100次ajax请求</li> 
         </ul>
     </body>
 </html>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script>
+    function http2(){
+        console.log('www');
+        for(var i=0;i<=100;i++){
+            $.ajax({
+                url:'https://47.94.95.52:8081/img/gophertiles(154).jpeg',
+                success:function(){
+                    console.log('ok');
+                }
+            })
+        }
+    }
+      function http1(){
+        for(var i=0;i<=100;i++){
+            console.log('xxx');
+            $.ajax({
+                url:'http://47.94.95.52:8080/img/gophertiles(128).jpeg?t=2',
+                success:function(){
+                    console.log('ok');
+                }
+            })
+        }
+    }
+
+</script>
