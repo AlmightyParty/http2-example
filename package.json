@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon serve/serve.js"
+    "start": "nodemon serve/serve.js & nodemon serve/http.js"
   },
   "author": "lizhi",
   "license": "MIT",

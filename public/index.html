@@ -34,11 +34,10 @@
     }
       function http1(){
         for(var i=0;i<=100;i++){
-            console.log('xxx');
             $.ajax({
-                url:'http://47.94.95.52:8080/go',
-                success:function(){
-                    console.log('ok');
+                url:'http://47.94.95.52:9999/go',
+                success:function(res){
+                    console.log(res);
                 }
             })
         }

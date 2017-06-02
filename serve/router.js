@@ -6,7 +6,7 @@ var app = require('./app'),
 	 
 var root = resolve(__dirname, '..');
 var gzip = zlib.createGzip();
-roucter.get('/go',function(ctx,next){
+router.get('/go',function(ctx,next){
 	ctx.body ='xxxxxxx'
 })
 router.get('/serverpush', function (ctx, next){
