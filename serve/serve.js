@@ -1,5 +1,6 @@
 var spdy = require('spdy');
 var http = require('http');
+var http2=require('http2')
 var fs = require('fs');
 
 var	options = {
@@ -21,6 +22,7 @@ server
 
 
 var http2server = spdy.createServer(options, server.callback());
+// var http2server = http2.createServer(options, server.callback());
 
 server.listen(port);
 http2server.listen(port2);
