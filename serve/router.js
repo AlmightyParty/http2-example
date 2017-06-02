@@ -6,7 +6,9 @@ var app = require('./app'),
 	 
 var root = resolve(__dirname, '..');
 var gzip = zlib.createGzip();
-
+roucter.get('/go',function(ctx,next){
+	ctx.body ='xxxxxxx'
+})
 router.get('/serverpush', function (ctx, next){
 	var zepto = fs.readFileSync(resolve(root, 'public/js/zepto.js'), { encoding: 'UTF-8' })
 	var underscore = fs.readFileSync(resolve(root, 'public/js/underscore.js'), { encoding: 'UTF-8' })
