@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e8f047-a781-46f8-b17c-3b6afc02ebbf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ab.html" afterPath="$PROJECT_DIR$/public/ab.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serve/http1.js" afterPath="$PROJECT_DIR$/serve/http1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serve/http2.js" afterPath="$PROJECT_DIR$/serve/http2.js" />
     </list>

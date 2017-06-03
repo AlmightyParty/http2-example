@@ -7,8 +7,8 @@ const path = require('path')
 const app = express()
 
 const options = {
-	key: fs.readFileSync(`${__dirname}/server.key`),
-	cert: fs.readFileSync(`${__dirname}/server.crt`)
+	key: fs.readFileSync(`${__dirname}/domain.key`),
+	cert: fs.readFileSync(`${__dirname}/chained.pem`)
 }
 
 const allow = (res) => {
