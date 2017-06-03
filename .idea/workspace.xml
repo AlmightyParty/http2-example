@@ -38,9 +38,28 @@
       <file leaf-file-name="item2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/item2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="e#393#397#0" expanded="true" />
+                <element signature="e#408#414#0" expanded="true" />
+                <element signature="e#449#455#0" expanded="true" />
+                <element signature="e#455#459#0" expanded="true" />
+                <element signature="e#459#463#0" expanded="true" />
+                <element signature="e#470#474#0" expanded="true" />
+                <element signature="e#475#479#0" expanded="true" />
+                <element signature="e#490#496#0" expanded="true" />
+                <element signature="e#536#542#0" expanded="true" />
+                <element signature="e#542#546#0" expanded="true" />
+                <element signature="e#546#550#0" expanded="true" />
+                <element signature="e#557#561#0" expanded="true" />
+                <element signature="e#562#566#0" expanded="true" />
+                <element signature="e#577#583#0" expanded="true" />
+                <element signature="e#621#627#0" expanded="true" />
+                <element signature="e#627#631#0" expanded="true" />
+                <element signature="e#631#635#0" expanded="true" />
+                <element signature="e#642#646#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,6 +82,7 @@
       <list>
         <option value="$PROJECT_DIR$/public/http2.html" />
         <option value="$PROJECT_DIR$/public/item1.html" />
+        <option value="$PROJECT_DIR$/public/item2.html" />
       </list>
     </option>
   </component>
@@ -295,9 +315,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/item2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#393#397#0" expanded="true" />
+            <element signature="e#408#414#0" expanded="true" />
+            <element signature="e#449#455#0" expanded="true" />
+            <element signature="e#455#459#0" expanded="true" />
+            <element signature="e#459#463#0" expanded="true" />
+            <element signature="e#470#474#0" expanded="true" />
+            <element signature="e#475#479#0" expanded="true" />
+            <element signature="e#490#496#0" expanded="true" />
+            <element signature="e#536#542#0" expanded="true" />
+            <element signature="e#542#546#0" expanded="true" />
+            <element signature="e#546#550#0" expanded="true" />
+            <element signature="e#557#561#0" expanded="true" />
+            <element signature="e#562#566#0" expanded="true" />
+            <element signature="e#577#583#0" expanded="true" />
+            <element signature="e#621#627#0" expanded="true" />
+            <element signature="e#627#631#0" expanded="true" />
+            <element signature="e#631#635#0" expanded="true" />
+            <element signature="e#642#646#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
