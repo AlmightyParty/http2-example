@@ -31,7 +31,7 @@ app.get('/option/?', (req, res) => {
 	}, delay)
 })
 
-http2.createServer(options, app).listen(9999, (err) => { // http2服务器端口为1002
+http2.createServer(options, app).listen(9992, (err) => { // http2服务器端口为1002
 	if (err) throw new Error(err)
 	console.log('Http2.x server listening on port 9992.')
 })  
