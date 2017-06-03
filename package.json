@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon serve/serve.js & nodemon serve/http.js"
+    "start": "nodemon serve/serve.js & nodemon serve/http1.js & nodemon serve/http1.js"
   },
   "author": "lizhi",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.15.3",
     "http2": "^3.3.6",
+    "https": "^1.0.0",
     "koa": "^2.0.0",
     "koa-compress": "^1.0.9",
     "koa-logger": "^1.3.0",
@@ -16,7 +18,7 @@
     "koa-static": "^2.0.0",
     "koa-static-cache": "^3.1.6",
     "nodemon": "^1.11.0",
-    "spdy": "^3.2.3"
+    "spdy": "^3.4.7"
   },
   "devDependencies": {},
   "description": "http2 demo using koa and component"
