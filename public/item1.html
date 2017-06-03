@@ -17,8 +17,20 @@
             }
         </style>
     </head>
+    <script>
+			function imageLoadTime() {
+				var lapsed = navSupport ? window.performance.now() : Date.now() - pageStart;
+				document.getElementById("imgTiming").innerHTML = ((lapsed) / 1000).toFixed(2)
+			}
+			var pageStart = Date.now();
+			var navSupport = !(!('performance' in window) || !('timing' in window.performance) || !('navigation' in window.performance));
+    </script>
     <body>
       <h2>http1.1</h2>
+      <div id="IMGLoad">
+          <div>Latency: <strong class="highlight">130ms</strong></div>
+          <div>Load time: <strong class="highlight"><span id="imgTiming">2.19</span>s</strong></div>
+      </div>
         <p>
             <img src="http://47.94.95.52:8080/img/gophertiles.jpeg?t=2" alt="" width="32" height="32">
             <img src="http://47.94.95.52:8080/img/gophertiles(1).jpeg?t=2" alt="" width="32" height="32">
@@ -202,7 +214,7 @@
             <img src="http://47.94.95.52:8080/img/gophertiles(179).jpeg?t=2" alt="" width="32" height="32">
         </p>
         <h2>http2</h2>
-        <p>
+   <!--      <p>
             <img src="https://47.94.95.52:8081/img/gophertiles.jpeg" alt="" width="32" height="32">
             <img src="https://47.94.95.52:8081/img/gophertiles(1).jpeg" alt="" width="32" height="32">
             <img src="https://47.94.95.52:8081/img/gophertiles(2).jpeg" alt="" width="32" height="32">
@@ -383,6 +395,6 @@
             <img src="https://47.94.95.52:8081/img/gophertiles(177).jpeg" alt="" width="32" height="32">
             <img src="https://47.94.95.52:8081/img/gophertiles(178).jpeg" alt="" width="32" height="32">
             <img src="https://47.94.95.52:8081/img/gophertiles(179).jpeg" alt="" width="32" height="32">
-        </p>
+        </p> -->
     </body>
 </html>
