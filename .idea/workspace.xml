@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e8f047-a781-46f8-b17c-3b6afc02ebbf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/serve/server.key" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serve/http1.js" afterPath="$PROJECT_DIR$/serve/http1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serve/http2.js" afterPath="$PROJECT_DIR$/serve/http2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serve/server.crt" afterPath="$PROJECT_DIR$/serve/server.crt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serve/server.csr" afterPath="$PROJECT_DIR$/serve/server.csr" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />

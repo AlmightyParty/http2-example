@@ -8,7 +8,9 @@ const app = express()
 
 const options = {
 	key: fs.readFileSync(`${__dirname}/server.pass.key`),
-	cert: fs.readFileSync(`${__dirname}/server.crt`)
+	cert: fs.readFileSync(`${__dirname}/server.crt`),
+	NPNProtocols: ['h2', 'http 1.1', 'http 1.0'],
+	passphrase: '1234'
 };
 const allow = (res) => {
 	res.header("Access-Control-Allow-Origin", "*")
