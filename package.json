@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon serve/serve.js & nodemon serve/http1.js & nodemon serve/http2.js"
+    "start": "nodemon serve/serve.js & nodemon serve/http1.js & nodemon serve/http2.js",
+    "prd":"pm2 start serve/serve.js & pm2 start serve/http1.js & pm2 start serve/http2.js",
   },
   "author": "lizhi",
   "license": "MIT",
@@ -18,7 +19,9 @@
     "koa-static": "^2.0.0",
     "koa-static-cache": "^3.1.6",
     "nodemon": "^1.11.0",
-    "spdy": "^3.4.7"
+    "pm2": "^2.4.6",
+    "spdy": "^3.4.7",
+    "strict-transport-security": "^0.2.0"
   },
   "devDependencies": {},
   "description": "http2 demo using koa and component"

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4e8f047-a781-46f8-b17c-3b6afc02ebbf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serve/http1.js" afterPath="$PROJECT_DIR$/serve/http1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serve/http2.js" afterPath="$PROJECT_DIR$/serve/http2.js" />
-    </list>
+    <list default="true" id="a4e8f047-a781-46f8-b17c-3b6afc02ebbf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -252,7 +249,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1564734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

@@ -17,7 +17,13 @@ var root = resolve(__dirname, '..');
 app.use(convert(logger()))
 
 app.use(convert(compress()))
-
+app.use(async (ctx, next) => {
+    ctx.set('ETag', '123');
+    ctx.set('Strict-Transport-Security', 'max-age=15552000;');
+     // res.setHeader('Strict-Transport-Security', 'max-age=15552000;')
+  await next();
+ 
+});
 // app.use(convert(staticCache(resolve(root, 'public'), {
 //   maxAge: 365 * 24 * 60 * 60  //去掉缓存更明显
 // })))
@@ -26,7 +32,7 @@ app.use(convert(serveStatic(resolve(root, 'public'))));
 var defaultPage = fs.readFileSync(resolve(process.cwd(), 'public/index.html'), { encoding: 'UTF-8' });
 
 
-app.use(convert(function *(next) {
+app.use(convert(function *(next) { 
     // Defer to later middleware
     yield next;
 
