@@ -1,4 +1,6 @@
 const http = require('https') // 若为http2则把'https'模块改为'spdy'模块
+const spdy = require('spdy')
+const http2 = require('http2')
 const url = require('url')
 // var sts = require('strict-transport-security');
 const fs = require('fs')
@@ -19,8 +21,8 @@ const allow = (res) => {
 	res.header("Access-Control-Allow-Origin", "*")
 	res.header("Access-Control-Allow-Headers", "X-Requested-With")
 	res.header("Access-Control-Allow-Methods","PUT,POST,GET,DELETE,OPTIONS")
-	// res.header('Strict-Transport-Security', 'max-age=15552000')
-	// res.setHeader('Strict-Transport-Security', 'max-age=15552000;')
+	res.header('Strict-Transport-Security', 'max-age=15552000')
+	// res.setHeader('Strict-Transport-Security', 'max-age=15552001;')
 }
 
 app.set('views', path.join(__dirname, 'views'))
@@ -39,7 +41,7 @@ app.use(express.static(path.join(__dirname, 'static')))
 })
 	//测试hsps
 // http.createServer(options, app).listen(7777, (err) => { 
-http.createServer(options, app).listen(9991, (err) => { // http2服务器端口为1002
+spdy.createServer(options, app).listen(9991, (err) => { // http2服务器端口为1002
 	if (err) throw new Error(err)
 	console.log('Http1.x server listening on port 9991.')
 })  
