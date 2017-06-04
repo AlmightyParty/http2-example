@@ -41,7 +41,7 @@ app.use(express.static(path.join(__dirname, 'static')))
 })
 	//测试hsps
 // http.createServer(options, app).listen(7777, (err) => { 
-spdy.createServer(options, app).listen(9991, (err) => { // http2服务器端口为1002
+https.createServer(options, app).listen(9991, (err) => { // http2服务器端口为1002
 	if (err) throw new Error(err)
 	console.log('Http1.x server listening on port 9991.')
 })  
